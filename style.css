@@ -1,0 +1,51 @@
+/*random generator*/
+
+
+@font-face {
+	font-family: myFirstFont;
+	src: url(comfortaa.ttf);
+}
+
+*{
+	font-family: myFirstFont;
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0px;
+	background-color: #d3dcd7;
+}
+
+.title {
+	display: flex;
+	justify-content: center;
+	padding: 20px 0px 20px 0px;
+}
+
+.title h1 {
+	font-size: 60px;
+}
+
+.myImage {
+	display: flex;
+	justify-content: center;
+	padding-left: 150px;
+	height: 350px;
+}
+
+.input {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.output {
+	display: flex;
+	justify-content: center;
+}
+
+.output p {
+	font-size: 30px;
+}
